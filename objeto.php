@@ -1,14 +1,12 @@
 <?php
 $aluno = [
     "nome" => "Duda",
-    "idade" => 16,
+    "idade" => 17,
 
     "estudar" => function() use (&$aluno){
         echo "{$aluno['nome']} está estudando";
     }
-       
-    echo "Nome: " . $aluno['nome'] . "<br>";
-]
 
+]
 
 ?>
